@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO Case Studies — Real-World AI Search Optimization Results</title>
+    <meta name="description" content="Explore real-world case studies showing how websites improved their AI search visibility using GEO (Generative Engine Optimization). See before and after GEOScore results.">
+    <meta name="keywords" content="GEO case studies, AI search optimization, generative engine optimization, GEOScore, AI visibility">
+    <link rel="canonical" href="https://henu-wang.github.io/geo-case-studies/">
+    <meta property="og:title" content="GEO Case Studies — Real-World AI Search Optimization Results">
+    <meta property="og:description" content="See how real websites improved their AI search visibility with Generative Engine Optimization techniques.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://henu-wang.github.io/geo-case-studies/">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "GEO Case Studies",
+        "description": "Real-world case studies demonstrating measurable improvements in AI search visibility through Generative Engine Optimization techniques, analyzed with GEOScore AI.",
+        "url": "https://henu-wang.github.io/geo-case-studies/",
+        "publisher": {
+            "@type": "Organization",
+            "name": "GEOScore AI",
+            "url": "https://geoscoreai.com"
+        },
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "SaaS Documentation Platform Case Study",
+                    "url": "https://henu-wang.github.io/geo-case-studies/#saas-docs"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "E-Commerce Product Pages Case Study",
+                    "url": "https://henu-wang.github.io/geo-case-studies/#ecommerce"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Tech Blog Content Case Study",
+                    "url": "https://henu-wang.github.io/geo-case-studies/#tech-blog"
+                }
+            ]
+        }
+    }
+    </script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --green: #16a34a;
+            --red: #dc2626;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--gray-800);
+            background: var(--gray-50);
+        }
+        .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+            color: white;
+            padding: 64px 0 56px;
+            text-align: center;
+        }
+        header h1 { font-size: 2.4rem; font-weight: 800; margin-bottom: 16px; letter-spacing: -0.02em; }
+        header p { font-size: 1.15rem; opacity: 0.9; max-width: 640px; margin: 0 auto; }
+
+        /* Case Study Cards */
+        .cases { padding: 56px 0; }
+        .case-card {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 32px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+            border: 1px solid var(--gray-200);
+        }
+        .case-card h2 { font-size: 1.5rem; color: var(--gray-900); margin-bottom: 8px; }
+        .case-card .subtitle { color: var(--gray-600); margin-bottom: 20px; font-size: 0.95rem; }
+        .case-card p { color: var(--gray-700); margin-bottom: 16px; }
+
+        .grades {
+            display: flex;
+            gap: 24px;
+            margin: 24px 0;
+            flex-wrap: wrap;
+        }
+        .grade-box {
+            flex: 1;
+            min-width: 180px;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .grade-box.before { background: #fef2f2; border: 1px solid #fecaca; }
+        .grade-box.after { background: #f0fdf4; border: 1px solid #bbf7d0; }
+        .grade-box .label { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gray-600); margin-bottom: 8px; }
+        .grade-box .grade { font-size: 2.2rem; font-weight: 800; }
+        .grade-box.before .grade { color: var(--red); }
+        .grade-box.after .grade { color: var(--green); }
+        .grade-box .score { font-size: 0.9rem; color: var(--gray-600); margin-top: 4px; }
+
+        .improvements { margin: 20px 0 0; }
+        .improvements h3 { font-size: 1rem; margin-bottom: 10px; color: var(--gray-800); }
+        .improvements ul { list-style: none; padding: 0; }
+        .improvements li {
+            padding: 6px 0;
+            padding-left: 24px;
+            position: relative;
+            color: var(--gray-700);
+        }
+        .improvements li::before {
+            content: "\2713";
+            position: absolute;
+            left: 0;
+            color: var(--green);
+            font-weight: 700;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            padding: 56px 0 64px;
+        }
+        .cta-section h2 { font-size: 1.8rem; margin-bottom: 12px; color: var(--gray-900); }
+        .cta-section p { color: var(--gray-600); margin-bottom: 28px; max-width: 540px; margin-left: auto; margin-right: auto; }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 14px 36px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: background 0.2s;
+        }
+        .btn:hover { background: var(--primary-dark); }
+
+        .tools {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .tools a {
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        .tools a:hover { text-decoration: underline; }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--gray-200);
+            padding: 32px 0;
+            text-align: center;
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        footer .links { margin-top: 8px; }
+        footer .links a { margin: 0 12px; }
+
+        @media (max-width: 640px) {
+            header h1 { font-size: 1.7rem; }
+            .case-card { padding: 24px; }
+            .grades { flex-direction: column; gap: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GEO Case Studies</h1>
+            <p>Real-world results from websites that optimized for AI search engines. See the measurable impact of Generative Engine Optimization.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="cases">
+
+            <article class="case-card" id="saas-docs">
+                <h2>SaaS Documentation Platform</h2>
+                <p class="subtitle">B2B Software &middot; 2,400+ documentation pages</p>
+                <p>A mid-size SaaS company found that AI assistants rarely cited their comprehensive documentation when users asked product-related questions. After a GEOScore audit, they restructured content with clear hierarchical headings, added FAQ schema markup, and improved their robots.txt to allow AI crawler access.</p>
+                <div class="grades">
+                    <div class="grade-box before">
+                        <div class="label">Before</div>
+                        <div class="grade">D+</div>
+                        <div class="score">Score: 38/100</div>
+                    </div>
+                    <div class="grade-box after">
+                        <div class="label">After</div>
+                        <div class="grade">A-</div>
+                        <div class="score">Score: 82/100</div>
+                    </div>
+                </div>
+                <div class="improvements">
+                    <h3>Key Changes</h3>
+                    <ul>
+                        <li>Unblocked AI crawlers (GPTBot, ClaudeBot, PerplexityBot) in robots.txt</li>
+                        <li>Added structured FAQ and HowTo schema to 120 key pages</li>
+                        <li>Restructured headings to use clear question-and-answer patterns</li>
+                        <li>Improved internal linking between related documentation topics</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="case-card" id="ecommerce">
+                <h2>E-Commerce Product Pages</h2>
+                <p class="subtitle">Consumer Electronics &middot; 800+ product listings</p>
+                <p>An online electronics retailer discovered their product pages were invisible to AI search engines despite strong traditional SEO. A GEOScore deep scan revealed missing product schema, thin descriptions, and blocked AI crawlers. After optimization, their products began appearing in AI-generated shopping recommendations.</p>
+                <div class="grades">
+                    <div class="grade-box before">
+                        <div class="label">Before</div>
+                        <div class="grade">D</div>
+                        <div class="score">Score: 31/100</div>
+                    </div>
+                    <div class="grade-box after">
+                        <div class="label">After</div>
+                        <div class="grade">B+</div>
+                        <div class="score">Score: 74/100</div>
+                    </div>
+                </div>
+                <div class="improvements">
+                    <h3>Key Changes</h3>
+                    <ul>
+                        <li>Added detailed Product schema with specifications, reviews, and pricing</li>
+                        <li>Expanded product descriptions from 50 words to 200+ words with natural language</li>
+                        <li>Configured AI crawler access and created a comprehensive sitemap</li>
+                        <li>Added comparison tables and buying guides for key product categories</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="case-card" id="tech-blog">
+                <h2>Tech Blog &amp; Knowledge Base</h2>
+                <p class="subtitle">Developer Tools &middot; 350+ articles</p>
+                <p>A developer tools company had a popular blog but noticed AI chatbots were citing competitors instead. Their GEOScore report showed poor content structure and missing authority signals. After implementing GEO best practices, their content became a primary source for AI-generated developer answers.</p>
+                <div class="grades">
+                    <div class="grade-box before">
+                        <div class="label">Before</div>
+                        <div class="grade">C</div>
+                        <div class="score">Score: 49/100</div>
+                    </div>
+                    <div class="grade-box after">
+                        <div class="label">After</div>
+                        <div class="grade">A</div>
+                        <div class="score">Score: 91/100</div>
+                    </div>
+                </div>
+                <div class="improvements">
+                    <h3>Key Changes</h3>
+                    <ul>
+                        <li>Added Article and TechArticle schema with author expertise signals</li>
+                        <li>Restructured posts with clear H2/H3 hierarchy and summary paragraphs</li>
+                        <li>Included code examples with proper semantic markup</li>
+                        <li>Built topical authority through comprehensive internal linking clusters</li>
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="cta-section">
+            <h2>See How Your Site Scores</h2>
+            <p>Run a free GEOScore scan to find out how visible your website is to AI search engines like ChatGPT, Perplexity, and Claude.</p>
+            <a href="https://geoscoreai.com" class="btn">Scan Your Website Free</a>
+            <div class="tools">
+                <a href="https://geoscoreai.com/tools/robots-txt-generator">Robots.txt Generator</a>
+                <a href="https://geoscoreai.com/tools/ai-crawler-checker">AI Crawler Checker</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 GEO Case Studies. Powered by <a href="https://geoscoreai.com">GEOScore AI</a>.</p>
+            <div class="links">
+                <a href="https://github.com/henu-wang/geo-case-studies">GitHub Repository</a>
+                <a href="https://geoscoreai.com">GEOScore AI</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
