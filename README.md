@@ -163,6 +163,25 @@ We review all submissions for quality and accuracy. Approved case studies will b
 
 ---
 
+## Related GEO Resources
+
+### Free Tools
+- [GEOScore AI Scanner](https://geoscoreai.com) — Check your website's AI search visibility across 11 signals
+- [AI Robots.txt Generator](https://geoscoreai.com/tools/robots-txt-generator) — Generate optimized robots.txt for AI crawlers
+- [AI Crawler Access Checker](https://geoscoreai.com/tools/ai-crawler-checker) — Verify which AI bots can access your site
+
+### Open Source Projects
+- [awesome-geo](https://github.com/henu-wang/awesome-geo) — Curated list of GEO resources, tools, and guides
+- [geo-scoring-methodology](https://github.com/henu-wang/geo-scoring-methodology) — Open methodology for scoring AI search readiness
+- [ai-robots-txt-generator](https://github.com/henu-wang/ai-robots-txt-generator) — Generate optimized robots.txt for AI crawlers
+- [geo-checklist](https://github.com/henu-wang/geo-checklist) — Interactive pre-launch GEO readiness checklist
+- [ai-crawlers-reference](https://github.com/henu-wang/ai-crawlers-reference) — Complete database of AI search engine crawler user-agents
+- [geo-badge-generator](https://github.com/henu-wang/geo-badge-generator) — Generate badges showing your GEO readiness score
+- [llms-txt-examples](https://github.com/henu-wang/llms-txt-examples) — Real-world llms.txt implementation examples by industry
+- [geo-config-examples](https://github.com/henu-wang/geo-config-examples) — Ready-to-use AI search optimization configs for popular frameworks
+- [ai-search-readiness-framework](https://github.com/henu-wang/ai-search-readiness-framework) — 11-signal AI search readiness evaluation framework
+
+
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). Case study data is shared with permission from the respective site owners.
